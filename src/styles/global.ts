@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import colors from './colors';
 
 export default createGlobalStyle`
   *{
@@ -9,14 +10,15 @@ export default createGlobalStyle`
   }
 
   body{
-    background-color: #fafafa;
-    color: #888;
+    background-color: ${colors.background_color_01};
+    color: ${colors.neutral_color_06};
     --webkit-font-smoothing: antialiased;
   }
 
   body, input, button{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+
   }
 
   h1, h2, h3, h4, h5, h6, strong{
@@ -25,5 +27,12 @@ export default createGlobalStyle`
 
   button{
     cursor: pointer;
+    outline: none;
+    border: none;
+
+  }
+
+  a {
+    color: ${colors.neutral_color_05};
   }
 `;
