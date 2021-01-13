@@ -21,6 +21,10 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "./src/**/*.ts"
+    "./src/**/*.ts",
+    "src/translations/languages/pt.tsx",
+    "src/translations/i18n.tsx",
+    "src/translations/languages/index.js",
+    "src/translations/languages/pt.js"
   ]
 }
