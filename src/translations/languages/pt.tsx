@@ -9,6 +9,17 @@ export default {
         welcome: 'Bem vindo',
         forgot: 'Esqueci minha senha',
         keep: 'Manter logado',
+
+        errors: {
+          required: 'Campo obrigatório!',
+        },
+      },
+
+      signup: {
+        message: 'Faça seu cadastro',
+        button: 'Cadastrar',
+        email: 'E-mail',
+        back: 'Voltar para login',
       },
 
       titles: {},
