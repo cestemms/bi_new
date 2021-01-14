@@ -6,6 +6,7 @@ import * as Yup from 'yup';
 import { Container, Content, Background } from './styles';
 import i18n from '../../translations/i18n.js';
 import getValidationErrors from '../../utils/getValidationErrors';
+import CopyrightFooter from '../../components/CopyrightFooter';
 
 import Input from '../../components/Input';
 import Button from '../../components/Button';
@@ -73,10 +74,7 @@ const Login: React.FC = () => {
             </Button>
           </div>
         </Form>
-        <p>
-          Copyright
-          <a href="https://healthbit.com.br">Healthbit</a>
-        </p>
+        <CopyrightFooter />
       </Content>
     </Container>
   );

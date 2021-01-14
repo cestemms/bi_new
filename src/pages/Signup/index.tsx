@@ -8,6 +8,7 @@ import { Container, Content, Background } from './styles';
 import i18n from '../../translations/i18n.js';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
+import CopyrightFooter from '../../components/CopyrightFooter';
 
 const Signup: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
@@ -72,10 +73,7 @@ const Signup: React.FC = () => {
             </Button>
           </div>
         </Form>
-        <p>
-          Copyright
-          <a href="https://healthbit.com.br">Healthbit</a>
-        </p>
+        <CopyrightFooter />
       </Content>
       <Background>
         <img
